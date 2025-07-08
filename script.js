@@ -1,5 +1,5 @@
 const ran = Math.floor(Math.random()*50)
-console.log(ran)
+
 
 const URL = `https://api.pexels.com/v1/search?page=${ran}&query=kittens`;
 const pic1 = document.querySelector(".pi1");
