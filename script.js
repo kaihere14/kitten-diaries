@@ -21,7 +21,6 @@ async function ar(){
     }
 })
 let output = await response.json();
-console.log(output)
 pic1.style.backgroundImage =  `url('${output.photos[0].src.tiny}')`;
 pic2.style.backgroundImage =  `url('${output.photos[1].src.tiny}')`;
 pic3.style.backgroundImage =  `url('${output.photos[2].src.tiny}')`;
